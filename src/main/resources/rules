@@ -1,0 +1,22 @@
+Smousse rules:
+1. Game ends when 1 player remains
+2. A player is being eliminated when he exceeds 100 points
+3. Players start with 5 cards on hand and 1 common card face-up on the table.
+4. Each card represents some value points (ace = 1, two = 2, three = 3 etc... ten, jack, queen and king = 10)
+4. Game consists of unknown number of rounds in which players can either throw card(s) or ending the round shouting 'Smousse'
+5. Player can shout 'Smousse' only on the beginning of his turn when he has 7 points or less in cards then all player's
+hand's points sum up to overall score (except the player who wins the round)
+
+Round course:
+1. First player throws a number (1-4) of same-rank cards from hand to the pile and takes 1(!) card to the hand, either
+from the thrown pile (first below the card(s) he has thrown) or first of the remaining deck
+    *) if the card taken out of the deck is the same rank as the card thrown to the pile -> the player can instantly
+    throw taken card to the pile and therefore not to take any card to the hand this round
+2. Taking card to hand means player has ended his turn (*) and next player (clockwise) is up to turn
+
+Special cases:
+-when a player shouts 'Smousse' but other player has equal or lower score, the first player gets 25 points and the second wins the round
+-when a player hits exactly 50 points -> the overall score is being divided by 2 and now the player has 25 points
+-when a player hits exactly 100 points -> the overall score is being divided by 2 and now the player has 50 points
+    (50 points is the lowest a player can get to after exceeding it)
+-a player can have 0 cards in his hand (see *)
